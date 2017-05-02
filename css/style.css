@@ -13,13 +13,13 @@ html, body{
   width: 100%;
   height: 100px;
   color: rgba(30, 1, 42, 0.03);
-  z-index: 100;
+  z-index: 1000;
 }
 
 .content-logo{
   position: relative;
   display: inline-block;
-  top: 40px;
+  top: 43px;
   left: 80px;
   width: 60px;
   height: 50px;
@@ -30,7 +30,6 @@ html, body{
   position: absolute;
   left:0;
   top: 0;
-  padding: 0;
   text-align: left;
 }
 
@@ -42,8 +41,8 @@ html, body{
 
 .nav-enlaces{
   position: absolute;
-  top: 40px;
-  left: 50%;
+  top: 50px;
+  left: 60%;
 }
 
 #enlaces li{
@@ -54,7 +53,7 @@ html, body{
 #enlaces li a{
   text-decoration: none;
   color: white;
-  font-size: 18px;
+  font-size: 20px;
   margin: 1px 5px;
 }
 
@@ -68,11 +67,53 @@ html, body{
   border-radius: 5px;
 }
 
+header{
+  width: 100%;
+  height: 480.94px;
+}
+
 .video-portada{
   width: 100%;
-  height: 100%;
+  height: 100hv;
   /*top: 50%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);*/
   z-index: -10;
+}
+
+.box-login{
+  position: absolute;
+  top: 100px;
+  right: 0;
+  background-color: white;
+  width: 43%;
+  height: 80%;
+  z-index: 1;
+}
+
+.content-login{
+  position: absolute;
+  top: 40px;
+  left: 50px;
+  width: 500px;
+  height: 400px;
+}
+
+.content-login h1,.content-login h5{
+  color: #352384;
+}
+
+.content-login h5{
+  margin: 8px 0px;
+}
+
+.box-info{
+  background: linear-gradient(#76278f,#2B1E66);
+  display: block;
+  width: 100%;
+  height: 800px;
+}
+
+.content-text{
+  color: #728099;
 }
