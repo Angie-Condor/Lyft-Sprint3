@@ -192,7 +192,7 @@ header{
   z-index: 1;
 }
 
-.video-1{
+.video-1, .video-2{
   display: block;
   position: relative;
   width: 100%;
@@ -204,13 +204,27 @@ header{
   display: inline-block;
   top:0;
   left: 0;
-  width: 30%;
-  height: 500px;
+  width: 28%;
+  height: 400px;
+  margin: 30px 20px 5px 50px
+    color: black;
 }
 
-.video{
+.video1{
   display: inline-block;
   position: absolute;
   top:0;
-  left:600px;
+  left: 450px;
+}
+
+.text-video span, .text-video h2{
+  text-transform: uppercase;
+}
+
+.text-video span{
+  font-size: 12px;
+}
+
+.text-video p{
+  margin-top: 20px;
 }
