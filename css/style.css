@@ -58,6 +58,10 @@ html, body{
   margin: 1px 5px;
 }
 
+#enlaces li a:hover{
+  color: #ff00bf;
+}
+
 #enlaces li #drive, #enlaces li #help{
   margin-right: 40px;
 }
@@ -66,6 +70,11 @@ html, body{
   padding: 6px 12px;
   border: solid 1px white;
   border-radius: 5px;
+}
+
+#enlaces li #login:hover{
+  border-color: #ff00bf;
+  color: #ff00bf;
 }
 
 header{
@@ -181,4 +190,27 @@ header{
   width: 100%;
   height: 100%;
   z-index: 1;
+}
+
+.video-1{
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 600px;
+}
+
+.text-video{
+  position: absolute;
+  display: inline-block;
+  top:0;
+  left: 0;
+  width: 30%;
+  height: 500px;
+}
+
+.video{
+  display: inline-block;
+  position: absolute;
+  top:0;
+  left:600px;
 }
